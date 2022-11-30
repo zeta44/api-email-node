@@ -14,7 +14,7 @@ const subjects = {
     assunto: "Bem vindo ao Arka Ambiental",
     mensagem: `
     <p>
-    Olá, nós da equipe Arka Ambiental, temos o prazer em ajudar você.
+    Nós da equipe Arka Ambiental, temos o prazer em ajudar você.
     É um prazer recebê-lo(a) aqui. Iremos atendê-lo(a) o mais breve possível;
     </p>    
     `,
