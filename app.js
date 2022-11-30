@@ -9,6 +9,7 @@ const subjects = {
   site: {
     assunto: "Novo contato - Site",
     mensagem: "Adicione este contato à sua lista de emails",
+    email: "arkambiental@arkambiental.com.br",
   },
   user: {
     assunto: "Bem vindo ao Arka Ambiental",
@@ -58,7 +59,7 @@ async function sendMail(user, callback) {
 
   let mailOptionsSite = {
     from: '"Arka Ambiental"<www.arkambiental.com.br/>', // sender address
-    to: details.email_contato, // list of receivers
+    to: subjects.site.email, // list of receivers
     subject: "Nova Mensagem do Site 👻", // Subject line
     html: `<h1>Mensagem recebida de ${user.name}.</h1><br>
     <h4>Dados do Contato</h4>
